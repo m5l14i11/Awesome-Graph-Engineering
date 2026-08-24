@@ -3,10 +3,11 @@
 <div align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-green.svg" alt="PRs welcome"></a>
+  <a href="https://arxiv.org/abs/2608.21156"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&style=flat-square" alt="arXiv:2608.21156"></a>
   <a href="https://github.com/DEEP-JLU/Awesome-Graph-Engineering"><img src="https://img.shields.io/github/stars/DEEP-JLU/Awesome-Graph-Engineering?style=flat" alt="GitHub stars"></a>
 </div>
 
-A curated collection of research papers, benchmarks, and open-source projects on **Graph Engineering in the era of LLM agents**. This repository accompanies the survey *Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence* and will be continuously updated.
+A curated collection of research papers, benchmarks, and open-source projects on **Graph Engineering in the era of LLM agents**. This repository accompanies the survey *[Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence](https://arxiv.org/abs/2608.21156)* and will be continuously updated.
 
 Graph Engineering studies how explicit, dynamic, and evolving graph structures can organize tasks, coordinate heterogeneous agents, maintain runtime state, and support system evolution. The collection follows the survey's progression from **Model Intelligence**, through **Individual Intelligence**, to **System Intelligence**.
 
@@ -14,11 +15,23 @@ Graph Engineering studies how explicit, dynamic, and evolving graph structures c
 
 **📃 Please [cite our paper](#-citation)** if you find this survey or repository helpful.
 
+```bibtex
+@misc{feng2026graphengineeringerallm,
+      title={Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence},
+      author={Yuyuan Feng and Zhishang Xiang and Chaobin Yang and Qichao Ma and Zerui Chen and Yujing Zhang and Ke Huang and Chuanjie Wu and Zhaoxu Liu and Yili Wang and Xin He and Jiapu Wang and Zijin Hong and Hao Chen and Yuanchen Bei and Kun Wang and Shengyuan Chen and Ningyu Zhang and Enyan Dai and Linhao Luo and Qingyi Pan and Qi Wang and Wenqi Fan and Guangjing Wang and Na Zou and Yangqiu Song and Xin Wang and Zechao Li and Xia Hu and Qing Li and Xiao Huang and Zhihong Zhang and Jinsong Su and Qinggang Zhang and Yi Chang},
+      year={2026},
+      eprint={2608.21156},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2608.21156},
+}
+```
+
 ---
 
 ## 🎉 News
 
-- **[2026-08]** We release the initial resource collection for Graph Engineering in the era of LLM agents.
+- **[2026-08]** We release our survey *[Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence](https://arxiv.org/abs/2608.21156)* and the accompanying resource collection.
 
 ## Overview
 
@@ -27,6 +40,11 @@ Graph Engineering provides a structured path from standalone model capability to
 - **Model Intelligence** builds and adapts foundation-model capabilities through parameterized training, prompt engineering, and context engineering.
 - **Individual Intelligence** equips a single agent with tools, memory, skills, runtime orchestration, and persistent interaction loops.
 - **System Intelligence** organizes tasks, agents, runtime state, and system evolution through explicit graph structures, with ontology engineering providing a shared semantic layer.
+
+<div align="center">
+  <img width="100%" src="images/image3.png" alt="The evolution from foundation models to Graph Engineering and System Intelligence">
+  <p><em>The evolution of engineering paradigms from Foundation Models to Graph and Ontology Engineering.</em></p>
+</div>
 
 ## Table of Contents
 
@@ -46,7 +64,7 @@ Graph Engineering provides a structured path from standalone model capability to
       - [Memory Management](#memory-management)
       - [Skill Composition](#skill-composition)
       - [Runtime Orchestration](#runtime-orchestration)
-      - [Loop Structure](#loop-structure)
+      - [Loop Architecture](#loop-architecture)
       - [Interaction Protocol](#interaction-protocol)
       - [Environment Feedback](#environment-feedback)
     - [System Intelligence](#system-intelligence)
@@ -77,6 +95,7 @@ Graph Engineering provides a structured path from standalone model capability to
 
 - (arXiv 2024) Graph Retrieval-Augmented Generation: A Survey [[Paper]](https://arxiv.org/abs/2408.08921)
 - (arXiv 2026) Agent Harness Engineering: A Survey [[Paper]](https://openreview.net/forum?id=eONq7FdiHa)
+- (TechRxiv 2026) A Systematic Survey of Self-Evolving Agents: From Model-Centric to Environment-Driven Co-Evolution [[Paper]](https://www.techrxiv.org/doi/full/10.36227/techrxiv.177203250.05832634/v2) [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=YDgbj6cAAAAJ&citation_for_view=YDgbj6cAAAAJ:zYLM7Y9cAGgC)
 - (arXiv 2025) Graphs Meet AI Agents: Taxonomy, Progress, and Future Opportunities [[Paper]](https://arxiv.org/abs/2506.18019)
 - (arXiv 2025) Graph-Augmented Large Language Model Agents: Current Progress and Future Prospects [[Paper]](https://arxiv.org/abs/2507.21407)
 - (arXiv 2026) Integrating Graphs, Large Language Models, and Agents: Reasoning and Retrieval [[Paper]](https://arxiv.org/abs/2604.15951)
@@ -93,9 +112,18 @@ Graph Engineering provides a structured path from standalone model capability to
 
 ## 📜 Research Papers
 
-> Papers are organized according to the taxonomy in the accompanying survey. Venue and year information is derived from the survey bibliography.
+
+<div align="center">
+  <img width="100%" src="images/image1.png" alt="A comprehensive taxonomy of Graph Engineering in the era of LLM agents">
+  <p><em>A comprehensive taxonomy spanning Model, Individual, and System Intelligence.</em></p>
+</div>
 
 ### Model Intelligence
+
+<div align="center">
+  <img width="100%" src="images/image2.png" alt="From Model Intelligence to Individual Intelligence">
+  <p><em>From Model Intelligence to Individual Intelligence through Prompt, Context, Harness, and Loop Engineering.</em></p>
+</div>
 
 #### Pre-Training
 
@@ -298,6 +326,11 @@ Graph Engineering provides a structured path from standalone model capability to
 
 ### System Intelligence
 
+<div align="center">
+  <img width="100%" src="images/image4.png" alt="Graph Engineering overview">
+  <p><em>Graph Engineering organizes tasks, coordinates agents, and manages runtime state.</em></p>
+</div>
+
 #### Task Organization
 
 - (NeurIPS 2023) **HuggingGPT** — HuggingGPT: Solving AI Tasks with ChatGPT and Its Friends in Hugging Face [[Paper]](https://arxiv.org/abs/2303.17580)
@@ -322,6 +355,11 @@ Graph Engineering provides a structured path from standalone model capability to
 - (arXiv 2025) **ScalingAgent** — Towards a science of scaling agent systems [[Paper]](https://arxiv.org/abs/2512.08296)
 
 #### Agent Coordination
+
+<div align="center">
+  <img width="100%" src="images/image5.png" alt="Agent coordination through capability, team, and communication graphs">
+  <p><em>Agent Coordination through capability mapping, team organization, and communication structures.</em></p>
+</div>
 
 - (COLM 2024) **DyLAN** — A dynamic LLM-powered agent network for task-oriented agent collaboration [[Paper]](https://arxiv.org/abs/2310.02170)
 - (ICLR 2025) **Agent-Oriented Planning** — Agent-oriented planning in multi-agent systems [[Paper]](https://arxiv.org/abs/2410.02189)
@@ -380,6 +418,11 @@ Graph Engineering provides a structured path from standalone model capability to
 - (arXiv 2026) **Agentic Aggregation** — Agentic aggregation for parallel scaling of long-horizon agentic tasks [[Paper]](https://arxiv.org/abs/2604.11753)
 
 #### State Management
+
+<div align="center">
+  <img width="100%" src="images/image6.png" alt="Runtime state recording, fault localization, and failure recovery">
+  <p><em>Runtime State Management through state recording, fault localization, and failure recovery.</em></p>
+</div>
 
 - (arXiv 2024) **StateFlow** — StateFlow: Enhancing LLM Task-Solving through State-Driven Workflows [[Paper]](https://arxiv.org/abs/2403.11322)
 - (arXiv 2024) **AutoGRAMS** — AutoGRAMS: Autonomous Graphical Agent Modeling Software [[Paper]](https://arxiv.org/abs/2407.10049)
@@ -625,15 +668,16 @@ Representative systems and application domains covered by the survey:
 If you find this repository useful, please cite the accompanying survey:
 
 ```bibtex
-@article{graphengineering2026,
-  title   = {Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence},
-  author  = {Anonymous Authors},
-  journal = {arXiv preprint},
-  year    = {2026}
+@misc{feng2026graphengineeringerallm,
+      title={Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence},
+      author={Yuyuan Feng and Zhishang Xiang and Chaobin Yang and Qichao Ma and Zerui Chen and Yujing Zhang and Ke Huang and Chuanjie Wu and Zhaoxu Liu and Yili Wang and Xin He and Jiapu Wang and Zijin Hong and Hao Chen and Yuanchen Bei and Kun Wang and Shengyuan Chen and Ningyu Zhang and Enyan Dai and Linhao Luo and Qingyi Pan and Qi Wang and Wenqi Fan and Guangjing Wang and Na Zou and Yangqiu Song and Xin Wang and Zechao Li and Xia Hu and Qing Li and Xiao Huang and Zhihong Zhang and Jinsong Su and Qinggang Zhang and Yi Chang},
+      year={2026},
+      eprint={2608.21156},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2608.21156},
 }
 ```
-
-> The citation metadata will be updated when the public arXiv record is available.
 
 ## Acknowledgments
 
