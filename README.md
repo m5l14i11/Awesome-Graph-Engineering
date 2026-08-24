@@ -1,4 +1,4 @@
-# Awesome-Graph-Engineering
+# Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence
 
 <div align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
