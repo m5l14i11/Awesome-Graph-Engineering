@@ -7,7 +7,7 @@
   <a href="https://github.com/DEEP-JLU/Awesome-Graph-Engineering"><img src="https://img.shields.io/github/stars/DEEP-JLU/Awesome-Graph-Engineering?style=flat" alt="GitHub stars"></a>
 </div>
 
-A curated collection of research papers, benchmarks, and open-source projects on **Graph Engineering in the era of LLM agents**. This repository accompanies the survey *[Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence](https://arxiv.org/abs/2608.21156)* and will be continuously updated.
+A curated collection of research papers, benchmarks, and open-source projects on **Graph Engineering in the era of LLM Agents**. This repository accompanies the survey *[Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence](https://arxiv.org/abs/2608.21156)* and will be continuously updated.
 
 Graph Engineering studies how explicit, dynamic, and evolving graph structures can organize tasks, coordinate heterogeneous agents, maintain runtime state, and support system evolution. The collection follows the survey's progression from **Model Intelligence**, through **Individual Intelligence**, to **System Intelligence**.
 
