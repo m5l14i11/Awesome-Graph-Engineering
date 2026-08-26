@@ -613,6 +613,10 @@ Reusable projects grouped by their primary engineering target:
 - [Mastra](https://github.com/mastra-ai/mastra)
 - [GPTSwarm](https://github.com/metauto-ai/GPTSwarm)
 
+### Ontology Engineering
+
+- [semantica](https://github.com/semantica-agi/semantica)
+
 ## 🚀 Applications
 
 Representative systems and application domains covered by the survey:
