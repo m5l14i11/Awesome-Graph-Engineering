@@ -603,6 +603,8 @@ Reusable projects grouped by their primary engineering target:
 
 ### System Intelligence
 
+#### Graph Engineering
+
 - [LangGraph](https://github.com/langchain-ai/langgraph)
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework)
 - [Google ADK](https://github.com/google/adk-python)
@@ -613,9 +615,9 @@ Reusable projects grouped by their primary engineering target:
 - [Mastra](https://github.com/mastra-ai/mastra)
 - [GPTSwarm](https://github.com/metauto-ai/GPTSwarm)
 
-### Ontology Engineering
+#### Ontology Engineering
 
-- [semantica](https://github.com/semantica-agi/semantica)
+- [Semantica](https://github.com/semantica-agi/semantica)
 
 ## 🚀 Applications
 
